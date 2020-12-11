@@ -3,7 +3,7 @@
 Setup your project using create-react-app.
 ## Screenshot
 
-![screenshot](app_screenshot.png)
+<!-- ![screenshot](app_screenshot.png) -->
 
 # Project Specification
 
