@@ -1,3 +1,4 @@
+
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -14,9 +15,9 @@ const CategoryFilter = ({ handleFilterChange }) => {
   ];
 
   return (
-    <div>
-      <p>Filter:</p>
-      <select onChange={handleFilterChange} name="category">
+    <div className="filter-wrapper">
+      <p className="filter-word">Filter by:</p>
+      <select onChange={handleFilterChange} name="category" className="filter-select">
         {categories.map(e => (<option key={e}>{e}</option>))}
       </select>
     </div>
