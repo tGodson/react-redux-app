@@ -1,9 +1,14 @@
 # Getting Started with Create React App
 
-Setup your project using create-react-app.
+Setup the Ract-Redux-app using create-react-app.
+
 ## Screenshot
 
-<!-- ![screenshot](app_screenshot.png) -->
+![screenshot](app_screenshot.png)
+
+## Live Demo
+
+[View live demo of app](https://arcane-dawn-43039.herokuapp.com/)
 
 # Project Specification
 

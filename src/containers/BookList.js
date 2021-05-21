@@ -27,21 +27,11 @@ function BooksList({
     <div>
       <CategoryFilter handleFilterChange={handleFilterChange} />
       <table>
-        <thead>
-          <tr>
-            <th>Book ID</th>
-            <th>Title</th>
-            <th>Category</th>
-            <th>Delete Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {
-            booksfiltered.map(book => (
-              <Book book={book} removeBook={handleRemoveBook} key={book.id} />
-            ))
-          }
-        </tbody>
+        {
+          booksfiltered.map(book => (
+            <Book book={book} removeBook={handleRemoveBook} key={book.id} />
+          ))
+        }
       </table>
     </div>
   );
