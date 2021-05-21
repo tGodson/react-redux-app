@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Setup your project using create-react-app.
+Setup the Ract-Redux-app using create-react-app.
 
 ## Screenshot
 
